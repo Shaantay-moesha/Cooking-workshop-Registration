@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Registration Success</title>
-     <script>
-        window.onload = function() {
-            alert("Your registration was successful");
-            // You can also redirect the user to another page if needed
-            // window.location.href = "";
-        }
-    </script>
+    <script src="js/success.js" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
 </head>
 <body>
     <h1>Registration Successful</h1>
-    <p>Thank you for registering!</p>
+    <p style="color: green" ><b>Thank you for registering!</b></p>
  </body> 
 </html> 
+
